@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %} Eight-letter-word Challenge {% endblock %}
+{% block content %}
+    <form action="./eightLWC" method="POST">
+      <br/>
+      <br/>
+      <br/>
+      <h1 class = "h1"> {{ scrambled_word }} </h1>
+      <br/>
+      <input type="text" class="textbox" name="guessed_word" autocomplete="off"/>
+      <br/><br/><br/>
+      <input type="submit" class="bstyle" value="Check word"/>
+    </form>
+    
+    <br/>
+    <h2 class = "h2a"> Score: {{ count8 }} </h2>
+    <h2 class = "h2a"> Fastest guess: {{ besttime8 }} s </h2>
+    <h2 class = "h2a"> Average Time: {{ avgtime8 }} s </h2>
+{% endblock %}

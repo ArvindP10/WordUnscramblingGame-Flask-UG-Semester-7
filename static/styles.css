@@ -1,0 +1,30 @@
+    .body {
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .h1 {
+        font-family: 'Verdana'; font-size: 72px; text-align: center; color: #a5c8f3;
+    }
+    .h2a {
+        font-family: 'Verdana'; font-size: 54px; text-align: center; color: #a5c8f3;
+    }
+    .h2b {
+        font-family: 'Verdana'; font-size: 40px; text-align: center; color: #a5c8f3;
+    }
+    .h3 {
+        font-family: 'Verdana'; font-size: 20px; text-align: center; color: #a5c8f3;
+    }
+    p, form {
+        font-family: 'Verdana'; font-size: 18px; text-align: center; color: #a5c8f3;
+    }
+    
+    .bstyle {
+        display: block;
+        width :500px;
+        height: 80px;
+        margin-left: auto; margin-right: auto; font-size: 36px; background-color: #191970; color: #87CEEB;
+    }
+    .textbox {
+        height: 50px; width: 200px; font-size: 14pt; color: #191970;
+    }

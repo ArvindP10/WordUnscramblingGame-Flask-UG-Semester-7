@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Home - The Word Unscrambling Game{% endblock %}
+{% block content %}
+
+    <br/>
+    <h1 class = "h1"> The Word Unscrambling Game! </h1>
+    <h2 class = "h2a" > How many words can you decode? </h2> <br/>
+    <h2 class = "h2b"> A jumbled-up word will be displayed </h2>
+    <h2 class = "h2b"> Guess the word as fast as you can! </h2>
+
+    <br/> <br/>
+    <h2 class = "h2b"> Your stats: High score / Fastest guess
+    <h2 class = "h2b"> 6 letter words: {{ highscore6 }} / {{ besttime6 }} </h2>
+    <h2 class = "h2b"> 7 letter words: {{ highscore7 }} / {{ besttime7 }} </h2>
+    <h2 class = "h2b"> 8 letter words: {{ highscore8 }} / {{ besttime8 }} </h2>
+
+    <br/> <br/>
+    <h3 class = "h3"> Arvind P </h3>
+    <h3 class = "h3"> (2019115021) </h3>
+
+{% endblock %}
