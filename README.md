@@ -6,8 +6,10 @@ Mini-project made for the Full-Stack Software Development course in the 7th seme
 
 ## Demonstration
 
-https://github.com/ArvindP10/WordUnscramblingGame-Flask-UG-Semester-7/assets/140001726/efe26b6d-94b8-41f7-a8b5-614a3f38d154
+![VideoDemonstration](https://github.com/ArvindP10/WordUnscramblingGame-Flask-UG-Semester-7/assets/140001726/8f170037-5d24-4a59-b9f9-0503c22ca735)
 
 ## MongoDB Collections
+
+![MongoDBCollections](https://github.com/ArvindP10/WordUnscramblingGame-Flask-UG-Semester-7/assets/140001726/f4615bcf-01ae-41a6-82eb-ea5476e61524)
 
 
